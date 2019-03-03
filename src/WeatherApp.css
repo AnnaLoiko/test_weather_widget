@@ -1,0 +1,86 @@
+.tagForecast{
+	display: block;
+	margin: 100px auto;
+	width: 400px;
+	border: 1px solid #ccc;
+	background-color: #268de3;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	padding: 40px 0 0;
+}
+.city{
+	position: absolute;
+	left: 20px;
+	top: 20px;	
+}
+.cityTime{
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	font-size: 30px;
+}
+.descr{
+	display: block;
+	text-align: center;
+}
+.temp{
+	font-size: 30px;
+	padding: 0 0 60px 0;
+	display: block;
+	color: rgb(255, 176, 57)
+}
+.windDeg{
+	position: absolute;
+	left: 20px;
+	top: 185px;	
+}
+.windSpeed{
+	position: absolute;
+	right:15px;
+	top: 185px;	
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+ul li{
+	background-color: #fff;
+	padding: 15px;
+	border-top: 1px solid #ccc;
+	color: #000;
+	font-size: 17px;
+	position: relative;
+	height: 50px;
+}
+.nextdate{
+	border-top: 5px solid #268de3;
+	background-color: #ebf5fd;
+}
+.nextdate .date{
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+}
+ul .date{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	text-align: right;
+}
+ul .time{
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+	text-align: right;
+}
+ul .temp{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 30px;
+	color: #268de3;
+	font-weight: bold;
+}
